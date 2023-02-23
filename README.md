@@ -21,5 +21,5 @@ for file in *project*/.vscode/ruby-project-settings.json; do mv $file "$(echo $f
 To push the changes in many repos to github
 
 ```
-for dir in *project*/; do cd $dir && git acm "update settings" && git p && cd ..; done
+for dir in *project*/; do echo -e "\n$dir\n" && cd $dir && git acm "update settings" && git p; cd .. ; done
 ```
