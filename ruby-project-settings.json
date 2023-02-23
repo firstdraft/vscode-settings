@@ -17,9 +17,9 @@
   "workbench.tree.renderIndentGuides": "always",
   "files.autoSaveDelay": 500,
   "files.exclude": {
-		"**/.git": true,
-		".vscode": true,
-		".bundle": true,
+    "**/.git": true,
+    ".vscode": true,
+    ".bundle": true,
     ".*": true,
     "*.ru": true,
     "Dockerfile": true,
